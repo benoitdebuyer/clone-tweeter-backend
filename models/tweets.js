@@ -6,7 +6,7 @@ const tweetSchema = mongoose.Schema({
   likes: [{ type: mongoose.Schema.Types.ObjectId, ref: 'users' }],
   createdAt: Date,
 });
-
+//change git
 const Tweet = mongoose.model('tweets', tweetSchema);
 
 module.exports = Tweet;
